@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie & Crave</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Cookie & Crave</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#products">Our Cookies</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <img src="logo.png" alt="Cookie & Crave Logo">
+        <h1>Craving Something Sweet?</h1>
+        <p>Delicious handmade cookies, baked with love.</p>
+        <a href="#products" class="btn">See Our Cookies</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At Cookie & Crave, we bake fresh, homemade cookies with the finest ingredients. Every bite is filled with warmth and sweetness.</p>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products">
+        <h2>Our Cookies</h2>
+        <div class="gallery">
+            <div class="cookie-item">
+                <img src="choco_chip.jpg" alt="Chocolate Chip Cookie">
+                <p>Classic Chocolate Chip</p>
+            </div>
+            <div class="cookie-item">
+                <img src="oatmeal.jpg" alt="Oatmeal Cookie">
+                <p>Oatmeal Raisin</p>
+            </div>
+            <div class="cookie-item">
+                <img src="peanut_butter.jpg" alt="Peanut Butter Cookie">
+                <p>Peanut Butter Bliss</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have a question? Reach out!</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Cookie & Crave. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
